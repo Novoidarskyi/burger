@@ -1,0 +1,90 @@
+:root {
+  --main-text-color: rgba(255, 255, 255, 0.7);
+  --secondary-text-color: #ffffff;
+  --main-background-color: #1c1c1c;
+  --secondary-background-color: #312f30;
+  --accent-color: #f6762c;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+/*++++++++++ Common ++++++++++*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+.discount-price {
+  color: var(--accent-color);
+}
+
+.price {
+  color: rgb(246, 118, 44, 0.5);
+}
+
+/*++++++++++ Header ++++++++++*/
+
+.site-nav-item {
+    color: inherit;
+}
+
+.site-nav-item.current {
+  color: var(--secondary-text-color);
+}
+
+/*++++++++++ Hero ++++++++++*/
+
+.hero-text {
+  color: var(--secondary-text-color);
+}
+
+/*++++++++++ Food list ++++++++++*/
+
+.card-footer{
+    background-color: var(--secondary-background-color);
+}
+
+/*++++++++++ Oder ++++++++++*/
+
+.oder {
+    background-color: var(--secondary-background-color);
+}
+
+/*++++++++++ Download Menu ++++++++++*/
+
+.download-menu {
+    background-color: var(--secondary-background-color);
+}
+
+
+/*++++++++++ Feedback ++++++++++*/
+
+.feedback-author {
+  color: var(--secondary-text-color);
+}
+
+/*++++++++++ Footer ++++++++++*/
+
+.footer a {
+  color: rgba(255, 255, 255, 0.8);
+}

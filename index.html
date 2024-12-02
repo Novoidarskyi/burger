@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burger</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -11,13 +12,23 @@
       <a href="./index.html">
         <img src="./images/logo.jpg" alt="Logo" />
       </a>
-      <nav>
+      <nav class="site-nav">
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">Pages</a></li>
-          <li><a href="">Our offer</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Shop</a></li>
+          <li class="site-nav-link">
+            <a href="./index.html" class="site-nav-item current">Home</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="" class="site-nav-item">Pages</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="" class="site-nav-item">Our offer</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="" class="site-nav-item">Pricing</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="" class="site-nav-item">Shop</a>
+          </li>
         </ul>
         <button type="button">Order now</button>
       </nav>
@@ -25,7 +36,7 @@
     <main>
       <!-- Hero -->
       <section>
-        <p>Fast food burgers</p>
+        <p class="hero-text">Fast food burgers</p>
         <h1>The fastest food, for instant hunger.</h1>
         <p>
           Some food has looked so awful that it's looked like something that the
@@ -46,8 +57,10 @@
               width="262"
               height="175"
             />
-            <h3>Chicken Paella</h3>
-            <p>We just don't make and sell food.Good food warms.</p>
+            <div class="card-footer">
+              <h3>Chicken Paella</h3>
+              <p>We just don't make and sell food.Good food warms.</p>
+            </div>
           </li>
           <li>
             <img
@@ -56,10 +69,12 @@
               width="262"
               height="175"
             />
-            <h3>Taco Del Mar</h3>
-            <p>
-              Taco Del Mar brings the best out of Mexican cuisine with fresh.
-            </p>
+            <div class="card-footer">
+              <h3>Taco Del Mar</h3>
+              <p>
+                Taco Del Mar brings the best out of Mexican cuisine with fresh.
+              </p>
+            </div>
           </li>
           <li>
             <img
@@ -68,8 +83,10 @@
               width="262"
               height="175"
             />
-            <h3>Bon Au Pain</h3>
-            <p>Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+            <div class="card-footer">
+              <h3>Bon Au Pain</h3>
+              <p>Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+            </div>
           </li>
           <li>
             <img
@@ -78,24 +95,26 @@
               width="262"
               height="175"
             />
-            <h3>Pizza Hut</h3>
-            <p>
-              Although the Pizza Hut Menu Prices have tumbled over the years.
-            </p>
+            <div class="card-footer">
+              <h3>Pizza Hut</h3>
+              <p>
+                Although the Pizza Hut Menu Prices have tumbled over the years.
+              </p>
+            </div>
           </li>
         </ul>
       </section>
 
       <!-- Order -->
-      <section>
+      <section class="oder">
         <img src="./images/burger.jpg" alt="Burger" width="549" height="499" />
         <h2>Burger King</h2>
         <p>
           Together with McDonald’s, Burger King has grown to become synonymous
           with burgers in the US.
         </p>
-        <p>$6</p>
-        <p>$8</p>
+        <p class="discount-price">$6</p>
+        <p class="price">$8</p>
         <button type="button">Order now</button>
       </section>
 
@@ -112,8 +131,8 @@
             />
             <h3>Dairy Queen</h3>
             <p>Dairy Queen is one of the biggest fast-food.</p>
-            <p>$4</p>
-            <p>$6</p>
+            <p class="discount-price">$4</p>
+            <p class="price">$6</p>
             <button type="button">Order now</button>
           </li>
           <li>
@@ -125,8 +144,8 @@
             />
             <h3>Pizza Hut</h3>
             <p>Although the Pizza Hut Menu Prices .</p>
-            <p>$3</p>
-            <p>$7</p>
+            <p class="discount-price">$3</p>
+            <p class="price">$7</p>
             <button type="button">Order now</button>
           </li>
           <li>
@@ -138,8 +157,8 @@
             />
             <h3>Burger King</h3>
             <p>Together with McDonald’s, Burger King.</p>
-            <p>$5</p>
-            <p>$6</p>
+            <p class="discount-price">$5</p>
+            <p class="price">$6</p>
             <button type="button">Order now</button>
           </li>
           <li>
@@ -151,8 +170,8 @@
             />
             <h3>Papa John’s</h3>
             <p>Papa John’s</p>
-            <p>$6</p>
-            <p>$8</p>
+            <p class="discount-price">$6</p>
+            <p class="price">$8</p>
             <button type="button">Order now</button>
           </li>
         </ul>
@@ -207,19 +226,19 @@
           Thanks a lot for the prompt service. Really appreciate. Excellence
           taste in Every Bite.Add a joy of best Taste. Foodie Moments.
         </p>
-        <p>Adele A. McNeill</p>
+        <p class="feedback-author">Adele A. McNeill</p>
         <p>Amirican</p>
       </section>
 
       <!-- Download Menu  -->
-      <section>
+      <section class="download-menu">
         <h2>Download Our Menu</h2>
         <button type="button">Download</button>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <a href="./index.html">
         <img src="./images/logo.jpg" alt="Logo" />
       </a>
