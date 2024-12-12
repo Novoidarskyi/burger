@@ -1,4 +1,5 @@
 :root {
+  --main-font: 'Roboto', sans-serif;
   --main-text-color: rgba(255, 255, 255, 0.7);
   --secondary-text-color: #ffffff;
   --main-background-color: #1c1c1c;
@@ -7,6 +8,10 @@
 }
 
 body {
+  font-family: var(--main-font);
+  line-height: 1.2;
+  font-weight: 500;  
+
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
@@ -30,61 +35,155 @@ a {
 }
 
 button {
+  font-size: 16px;  
+  text-transform: uppercase;
+
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
 
 .discount-price {
+  font-size: 16px; 
+  letter-spacing: 0.1em;
+
   color: var(--accent-color);
 }
 
 .price {
+  font-size: 16px;  
+  text-decoration: line-through;
+  letter-spacing: 0.1em;
+
+
   color: rgb(246, 118, 44, 0.5);
 }
 
 /*++++++++++ Header ++++++++++*/
 
 .site-nav-item {
-    color: inherit;
+  font-size: 14px;
+  font-weight: 400;  
+  text-transform: uppercase;
+
+  color: inherit;
 }
 
 .site-nav-item.current {
+  font-size: 15px;
+  font-weight: 700; 
+
   color: var(--secondary-text-color);
 }
 
 /*++++++++++ Hero ++++++++++*/
 
 .hero-text {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
   color: var(--secondary-text-color);
+}
+
+.hero-title {
+  font-size: 57.33px;  
+}
+
+.hero-info {
+  font-size: 18px;
+  font-weight: 400;     
 }
 
 /*++++++++++ Food list ++++++++++*/
 
-.card-footer{
-    background-color: var(--secondary-background-color);
+.food-list-title  {
+  font-size: 20px;  
+}
+
+.food-list-text {
+  font-size: 16px;
+  font-weight: 400;  
+}
+
+.card-footer {
+  background-color: var(--secondary-background-color);
 }
 
 /*++++++++++ Oder ++++++++++*/
 
 .oder {
-    background-color: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
+
+.oder-title {
+  font-size: 44.2px;  
+}
+
+.oder-text {
+  font-size: 16px;   
+  font-weight: 400;   
+}
+
+.oder .discount-price {
+  font-size: 20px; 
+}
+
+
+
+/*++++++++++ Product ++++++++++*/
+
+.product-title {
+  font-size: 30px;  
+}
+
+.product-text {
+  font-size: 16px;  
+  font-weight: 400;    
+}
+
+/*++++++++++ Feedback ++++++++++*/
+
+.feedback-text {
+  font-size: 16px; 
+  font-weight: 400;     
+}
+
+.feedback-author {
+  font-size: 24px;   
+
+  color: var(--secondary-text-color);
+}
+
+.feedback-author-natio {
+  font-size: 12px;   
+}
+
 
 /*++++++++++ Download Menu ++++++++++*/
 
 .download-menu {
-    background-color: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
-
-/*++++++++++ Feedback ++++++++++*/
-
-.feedback-author {
-  color: var(--secondary-text-color);
+.download-menu-title {
+  font-size: 40px;   
 }
+
 
 /*++++++++++ Footer ++++++++++*/
 
+address {
+  font-style: normal;
+}
+
+.footer-title {
+  font-size: 16px; 
+   
+}
+
 .footer a {
+  font-size: 12px;  
+  font-weight: 400;   
+
   color: rgba(255, 255, 255, 0.8);
 }
